@@ -1,0 +1,14 @@
+#include <stdio.h>;
+int main(){
+    int a,b;
+    printf("Enter two nos");
+    scanf("%d%d",&a , &b);
+    if (a == b)
+    {
+        printf("both are equal");
+    }
+    else{
+        printf("not equal");
+    }
+    return 0;
+}
